@@ -1,7 +1,26 @@
 body {
-  background-color: red;
+  background-image: url("olives-14998738411Ii.jpg");
 }
 
 action-button button {
-  background-color:  green;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+action-button button span.title {
+  text-align: left;
+  flex-grow: 1;
+}
+
+action-button button span.icon {
+  margin-right: 4px;
+  flex-grow: 0;
+}
+
+footer, footer a {
+  color: white;
 }
